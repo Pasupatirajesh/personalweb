@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Your Name - Personal Website</title>
+    </head>
+    <body>
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        section {
+            margin: 2em;
+        }
+
+        h1, h2, h3 {
+            color: #3498db;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .about-text {
+            width: 60%;
+        }
+
+        .profile-image {
+            width: 35%;
+            height: 35%;
+            border-radius: 50%;
+        }
+
+
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>{{ user.username }} Subramanian</h1>
+        <p>Sathya Subramanian</p>
+    </header>
+
+    <section id="about" class="about-container">
+    <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Sathya,a recent master's graduate in comptuer science from Georgia Tech. I want to use my background in computers and AI to innovate in the field of Assistive Technology. I have over 10 years of professional experience in configuring, and improving access to technology by individuals with disabilities. 
+        </p>
+    </div>
+    <img src="img/download.png" alt="Sathya profile-image" class="profile-image">
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+        	<li>Python</li>
+        	<li>Java</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Website</h3>
+            <p>Developed a personal website using the Python Flask framework. I have used HTML, CSS and Javscript technologies for the front end</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: sathyakha@duck.com</p>
+        <p>LinkedIn: linkedin.com/in/sathya-subramanian-66b20847</p>
+        <p>GitHub: github.com/Pasupatirajesh</p>
+    </section>
+
+    <footer>
+        &copy; 2023 Sathya - Personal Website
+    </footer>
+
+
